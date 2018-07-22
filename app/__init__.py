@@ -14,4 +14,8 @@ def create_app(config_name):
     from .ac_controller.ac_controller import acController
     app.register_blueprint(acController, url_prefix='/acController')
 
+    @app.route("/")
+    def hello():
+        return "Hello World!"
+
     return app
