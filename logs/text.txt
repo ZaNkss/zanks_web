@@ -1,0 +1,941 @@
+2018-07-18 21:02:57,366 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:04:38,060 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:04:40,464 INFO    : 127.0.0.1 - - [18/Jul/2018 21:04:40] "POST /acController/authorize HTTP/1.1" 400 -
+2018-07-18 21:05:48,318 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:05:51,101 INFO    : 127.0.0.1 - - [18/Jul/2018 21:05:51] "POST /acController/authorize HTTP/1.1" 400 -
+2018-07-18 21:06:22,160 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:06:24,669 INFO    : 127.0.0.1 - - [18/Jul/2018 21:06:24] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:07:56,629 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:07:59,269 INFO    : 127.0.0.1 - - [18/Jul/2018 21:07:59] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:10:43,977 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:10:48,362 INFO    : 127.0.0.1 - - [18/Jul/2018 21:10:48] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:13:43,195 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:13:46,946 INFO    : 127.0.0.1 - - [18/Jul/2018 21:13:46] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:14:29,595 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:14:36,227 INFO    : 127.0.0.1 - - [18/Jul/2018 21:14:36] "POST /acController/authorize HTTP/1.1" 400 -
+2018-07-18 21:16:04,635 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:16:07,273 INFO    : 127.0.0.1 - - [18/Jul/2018 21:16:07] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:17:48,054 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:17:50,144 INFO    : 127.0.0.1 - - [18/Jul/2018 21:17:50] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:18:26,950 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:18:30,515 INFO    : 127.0.0.1 - - [18/Jul/2018 21:18:30] "POST /acController/authorize HTTP/1.1" 400 -
+2018-07-18 21:19:20,589 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:19:47,182 INFO    : 127.0.0.1 - - [18/Jul/2018 21:19:47] "POST /acController/authorize HTTP/1.1" 400 -
+2018-07-18 21:27:15,343 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:27:19,288 INFO    : 收到来自帽子底下有呆毛的请求，授权码为aaa
+2018-07-18 21:27:19,288 INFO    : 127.0.0.1 - - [18/Jul/2018 21:27:19] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:30:36,566 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:30:41,863 INFO    : 收到来自帽子底下有呆毛的请求，授权码为aaa
+2018-07-18 21:30:41,864 INFO    : 127.0.0.1 - - [18/Jul/2018 21:30:41] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:30:53,961 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 21:30:53,961 INFO    : 127.0.0.1 - - [18/Jul/2018 21:30:53] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:52:09,589 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 21:52:12,419 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:52:12,420 INFO    : 127.0.0.1 - - [18/Jul/2018 21:52:12] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:52:22,410 ERROR   : Exception on /acController/authorize [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 19, in ac_authorize
+    logger.info("收到来自" + user_info['nickName'] + "的请求，授权码为" + code)
+TypeError: Can't convert 'NoneType' object to str implicitly
+2018-07-18 21:52:22,464 INFO    : 127.0.0.1 - - [18/Jul/2018 21:52:22] "POST /acController/authorize HTTP/1.1" 500 -
+2018-07-18 21:52:30,262 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:52:30,263 INFO    : 127.0.0.1 - - [18/Jul/2018 21:52:30] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:53:44,252 INFO    : 收到来自帽子底下有呆毛的请求，授权码为mistake
+2018-07-18 21:53:44,252 INFO    : 127.0.0.1 - - [18/Jul/2018 21:53:44] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:53:50,764 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:53:50,764 INFO    : 127.0.0.1 - - [18/Jul/2018 21:53:50] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:54:39,387 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:54:39,388 INFO    : 127.0.0.1 - - [18/Jul/2018 21:54:39] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:54:56,235 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:54:56,235 INFO    : 127.0.0.1 - - [18/Jul/2018 21:54:56] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:55:02,240 INFO    : 收到来自帽子底下有呆毛的请求，授权码为aad
+2018-07-18 21:55:02,241 INFO    : 127.0.0.1 - - [18/Jul/2018 21:55:02] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:55:35,737 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:55:35,737 INFO    : 127.0.0.1 - - [18/Jul/2018 21:55:35] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:55:43,186 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:55:43,187 INFO    : 127.0.0.1 - - [18/Jul/2018 21:55:43] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:55:50,893 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:55:50,894 INFO    : 127.0.0.1 - - [18/Jul/2018 21:55:50] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 21:58:59,480 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 21:58:59,480 INFO    : 127.0.0.1 - - [18/Jul/2018 21:58:59] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:00:58,935 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:00:58,936 INFO    : 127.0.0.1 - - [18/Jul/2018 22:00:58] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:03:26,758 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:03:26,758 INFO    : 127.0.0.1 - - [18/Jul/2018 22:03:26] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:03:47,796 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:03:47,796 INFO    : 127.0.0.1 - - [18/Jul/2018 22:03:47] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:04:39,140 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:04:39,140 INFO    : 127.0.0.1 - - [18/Jul/2018 22:04:39] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:07:01,557 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:07:01,558 INFO    : 127.0.0.1 - - [18/Jul/2018 22:07:01] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:08:11,780 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:08:11,780 INFO    : 127.0.0.1 - - [18/Jul/2018 22:08:11] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:08:41,751 INFO    : 收到来自帽子底下有呆毛的请求，授权码为console.log(this.data.primary_btn_loading)
+2018-07-18 22:08:41,752 INFO    : 127.0.0.1 - - [18/Jul/2018 22:08:41] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:09:24,834 INFO    : 收到来自帽子底下有呆毛的请求，授权码为kk
+2018-07-18 22:09:24,835 INFO    : 127.0.0.1 - - [18/Jul/2018 22:09:24] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:11:06,058 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:11:06,058 INFO    : 127.0.0.1 - - [18/Jul/2018 22:11:06] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:11:54,122 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:11:54,122 INFO    : 127.0.0.1 - - [18/Jul/2018 22:11:54] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:20:46,194 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:20:46,194 INFO    : 127.0.0.1 - - [18/Jul/2018 22:20:46] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:21:04,914 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:21:04,914 INFO    : 127.0.0.1 - - [18/Jul/2018 22:21:04] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:22:17,321 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:22:17,322 INFO    : 127.0.0.1 - - [18/Jul/2018 22:22:17] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:23:37,906 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:23:37,908 INFO    : 127.0.0.1 - - [18/Jul/2018 22:23:37] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:23:48,739 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:23:48,739 INFO    : 127.0.0.1 - - [18/Jul/2018 22:23:48] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:23:54,355 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asda
+2018-07-18 22:23:54,356 INFO    : 127.0.0.1 - - [18/Jul/2018 22:23:54] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:26:53,770 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:26:53,771 INFO    : 127.0.0.1 - - [18/Jul/2018 22:26:53] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:26:59,755 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:26:59,755 INFO    : 127.0.0.1 - - [18/Jul/2018 22:26:59] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:27:16,496 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:27:16,496 INFO    : 127.0.0.1 - - [18/Jul/2018 22:27:16] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:29:32,942 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:29:32,942 INFO    : 127.0.0.1 - - [18/Jul/2018 22:29:32] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:29:53,824 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:29:53,825 INFO    : 127.0.0.1 - - [18/Jul/2018 22:29:53] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:29:57,531 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asdasd
+2018-07-18 22:29:57,531 INFO    : 127.0.0.1 - - [18/Jul/2018 22:29:57] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:33:16,664 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:33:16,664 INFO    : 127.0.0.1 - - [18/Jul/2018 22:33:16] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:34:47,417 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:34:47,417 INFO    : 127.0.0.1 - - [18/Jul/2018 22:34:47] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:34:52,858 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asdasd
+2018-07-18 22:34:52,858 INFO    : 127.0.0.1 - - [18/Jul/2018 22:34:52] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:35:04,504 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:35:04,504 INFO    : 127.0.0.1 - - [18/Jul/2018 22:35:04] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:35:25,676 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:35:25,677 INFO    : 127.0.0.1 - - [18/Jul/2018 22:35:25] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:36:08,003 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:36:08,003 INFO    : 127.0.0.1 - - [18/Jul/2018 22:36:08] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:36:14,570 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:36:14,571 INFO    : 127.0.0.1 - - [18/Jul/2018 22:36:14] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:38:40,448 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-18 22:38:46,801 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-18 22:38:46,801 INFO    : 帽子底下有呆毛获取授权失败
+2018-07-18 22:38:46,818 INFO    : 127.0.0.1 - - [18/Jul/2018 22:38:46] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-18 22:38:54,635 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-18 22:38:54,635 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-18 22:38:54,635 INFO    : 127.0.0.1 - - [18/Jul/2018 22:38:54] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-20 21:00:36,341 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 21:05:44,060 INFO    : 127.0.0.1 - - [20/Jul/2018 21:05:44] "GET /acController/onLogin HTTP/1.1" 405 -
+2018-07-20 21:05:44,166 INFO    : 127.0.0.1 - - [20/Jul/2018 21:05:44] "GET /favicon.ico HTTP/1.1" 404 -
+2018-07-20 21:10:13,451 INFO    : 127.0.0.1 - - [20/Jul/2018 21:10:13] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-20 21:36:57,436 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 21:38:02,001 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 21:38:54,349 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-20 21:38:54,392 INFO    : 帽子底下有呆毛获取授权失败
+2018-07-20 21:38:54,392 INFO    : 127.0.0.1 - - [20/Jul/2018 21:38:54] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-20 21:40:36,594 ERROR   : Exception on /acController/authorize [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 19, in ac_authorize
+    logger.info("收到来自" + user_info['nickName'] + "的请求，授权码为" + authorize_code)
+KeyError: 'nickName'
+2018-07-20 21:40:36,657 INFO    : 127.0.0.1 - - [20/Jul/2018 21:40:36] "POST /acController/authorize HTTP/1.1" 500 -
+2018-07-20 21:40:42,068 ERROR   : Exception on /acController/authorize [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 19, in ac_authorize
+    logger.info("收到来自" + user_info['nickName'] + "的请求，授权码为" + authorize_code)
+KeyError: 'nickName'
+2018-07-20 21:40:42,069 INFO    : 127.0.0.1 - - [20/Jul/2018 21:40:42] "POST /acController/authorize HTTP/1.1" 500 -
+2018-07-20 21:40:59,980 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asdasd
+2018-07-20 21:40:59,980 INFO    : 帽子底下有呆毛获取授权失败
+2018-07-20 21:40:59,980 INFO    : 127.0.0.1 - - [20/Jul/2018 21:40:59] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-20 21:42:03,817 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-20 21:42:03,818 INFO    : 帽子底下有呆毛获取授权失败
+2018-07-20 21:42:03,818 INFO    : 127.0.0.1 - - [20/Jul/2018 21:42:03] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-20 21:42:54,125 INFO    : 127.0.0.1 - - [20/Jul/2018 21:42:54] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-20 21:43:15,524 INFO    : 127.0.0.1 - - [20/Jul/2018 21:43:15] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-20 23:04:29,915 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 23:04:30,518 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 50, in ac_start
+    ac_user_info = AcUserInfo(openid, "default")
+TypeError: __init__() takes 1 positional argument but 3 were given
+2018-07-20 23:04:30,523 INFO    : 127.0.0.1 - - [20/Jul/2018 23:04:30] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-20 23:05:39,763 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 23:06:59,085 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 23:07:10,578 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 52, in ac_start
+    ac_user_info_controller.add(ac_user_info)
+  File "F:\project\python\zanks_web\app\models\ac_userInfo.py", line 20, in add
+    select = AcUserInfo.query.filter_by(openid=ac_userInfo['openid'])
+TypeError: 'AcUserInfo' object is not subscriptable
+2018-07-20 23:07:10,581 INFO    : 127.0.0.1 - - [20/Jul/2018 23:07:10] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-20 23:36:50,630 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-20 23:37:00,726 INFO    : 127.0.0.1 - - [20/Jul/2018 23:37:00] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-20 23:37:13,566 INFO    : 收到来自帽子底下有呆毛的请求，授权码为asd
+2018-07-20 23:37:13,566 INFO    : 帽子底下有呆毛获取授权失败
+2018-07-20 23:37:13,566 INFO    : 127.0.0.1 - - [20/Jul/2018 23:37:13] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-20 23:37:22,955 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-20 23:37:22,955 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-20 23:37:22,956 INFO    : 127.0.0.1 - - [20/Jul/2018 23:37:22] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-20 23:37:30,619 INFO    : 127.0.0.1 - - [20/Jul/2018 23:37:30] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-20 23:50:18,181 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 09:54:59,187 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 09:55:29,681 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 41, in ac_start
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 09:55:29,767 INFO    : 127.0.0.1 - - [21/Jul/2018 09:55:29] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 09:56:12,636 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 09:56:16,992 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 42, in ac_start
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 09:56:17,128 INFO    : 127.0.0.1 - - [21/Jul/2018 09:56:17] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 09:58:22,330 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 42, in ac_start
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 09:58:22,331 INFO    : 127.0.0.1 - - [21/Jul/2018 09:58:22] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 09:58:40,822 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 42, in ac_start
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 09:58:40,823 INFO    : 127.0.0.1 - - [21/Jul/2018 09:58:40] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 09:58:52,013 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 43, in ac_start
+    reslut = AcUserInfoController.select()
+TypeError: select() missing 1 required positional argument: 'openid'
+2018-07-21 09:58:52,014 INFO    : 127.0.0.1 - - [21/Jul/2018 09:58:52] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 09:59:37,438 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 09:59:44,637 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 43, in ac_start
+    reslut = AcUserInfoController.select()
+TypeError: select() missing 1 required positional argument: 'openid'
+2018-07-21 09:59:44,752 INFO    : 127.0.0.1 - - [21/Jul/2018 09:59:44] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:00:22,003 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:00:28,512 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 55, in ac_start
+    ac_user_info = AcUserInfo(openid,'default',is_auth)
+TypeError: object() takes no parameters
+2018-07-21 10:00:28,565 INFO    : 127.0.0.1 - - [21/Jul/2018 10:00:28] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:02:55,381 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:03:04,461 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 58, in ac_start
+    msg = json.dump(msg)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2018-07-21 10:03:04,510 INFO    : 127.0.0.1 - - [21/Jul/2018 10:03:04] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:05:42,863 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:05:51,406 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 58, in ac_start
+    msg = json.dump(msg)
+TypeError: dump() missing 1 required positional argument: 'fp'
+2018-07-21 10:05:51,408 INFO    : 127.0.0.1 - - [21/Jul/2018 10:05:51] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:06:15,218 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:06:21,101 INFO    : 127.0.0.1 - - [21/Jul/2018 10:06:21] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:06:57,262 INFO    : 127.0.0.1 - - [21/Jul/2018 10:06:57] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:09:11,839 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:09:11,859 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:09:11,859 INFO    : 127.0.0.1 - - [21/Jul/2018 10:09:11] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-21 10:09:17,088 INFO    : 127.0.0.1 - - [21/Jul/2018 10:09:17] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:09:41,802 INFO    : 127.0.0.1 - - [21/Jul/2018 10:09:41] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:10:38,148 INFO    : 127.0.0.1 - - [21/Jul/2018 10:10:38] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:10:48,308 INFO    : 127.0.0.1 - - [21/Jul/2018 10:10:48] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:10:59,490 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:10:59,490 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:10:59,490 INFO    : 127.0.0.1 - - [21/Jul/2018 10:10:59] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-21 10:11:06,419 INFO    : 127.0.0.1 - - [21/Jul/2018 10:11:06] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:16:55,144 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:16:55,144 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:16:55,145 INFO    : 127.0.0.1 - - [21/Jul/2018 10:16:55] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-21 10:17:00,358 INFO    : 127.0.0.1 - - [21/Jul/2018 10:17:00] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:18:19,727 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:18:19,727 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:18:19,727 INFO    : 127.0.0.1 - - [21/Jul/2018 10:18:19] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-21 10:18:35,957 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:18:42,818 INFO    : 127.0.0.1 - - [21/Jul/2018 10:18:42] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:18:46,178 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:18:46,179 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:18:46,179 ERROR   : Exception on /acController/authorize [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 38, in ac_authorize
+    ac_user_info = AcUserInfo(openid, user_info['nickname'], is_auth)
+KeyError: 'nickname'
+2018-07-21 10:18:46,228 INFO    : 127.0.0.1 - - [21/Jul/2018 10:18:46] "POST /acController/authorize HTTP/1.1" 500 -
+2018-07-21 10:18:50,085 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:18:50,086 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:18:50,086 ERROR   : Exception on /acController/authorize [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 38, in ac_authorize
+    ac_user_info = AcUserInfo(openid, user_info['nickname'], is_auth)
+KeyError: 'nickname'
+2018-07-21 10:18:50,087 INFO    : 127.0.0.1 - - [21/Jul/2018 10:18:50] "POST /acController/authorize HTTP/1.1" 500 -
+2018-07-21 10:19:18,005 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:19:24,110 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:19:24,110 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:19:24,111 ERROR   : Exception on /acController/authorize [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 39, in ac_authorize
+    if AcUserInfoController.select().__len__() == 0:
+TypeError: select() missing 1 required positional argument: 'openid'
+2018-07-21 10:19:24,112 INFO    : 127.0.0.1 - - [21/Jul/2018 10:19:24] "POST /acController/authorize HTTP/1.1" 500 -
+2018-07-21 10:19:29,762 INFO    : 127.0.0.1 - - [21/Jul/2018 10:19:29] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:19:41,092 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:19:48,593 INFO    : 127.0.0.1 - - [21/Jul/2018 10:19:48] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:19:52,661 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:19:52,661 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:19:53,121 INFO    : 127.0.0.1 - - [21/Jul/2018 10:19:53] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-21 10:19:57,823 INFO    : 127.0.0.1 - - [21/Jul/2018 10:19:57] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:20:59,199 INFO    : 127.0.0.1 - - [21/Jul/2018 10:20:59] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:25:01,565 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:25:15,866 INFO    : 127.0.0.1 - - [21/Jul/2018 10:25:15] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:25:32,704 INFO    : 127.0.0.1 - - [21/Jul/2018 10:25:32] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:27:24,489 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 51, in ac_onlogin
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 10:27:24,491 INFO    : 127.0.0.1 - - [21/Jul/2018 10:27:24] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:28:00,243 INFO    : 127.0.0.1 - - [21/Jul/2018 10:28:00] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:29:37,016 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 51, in ac_onlogin
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 10:29:37,017 INFO    : 127.0.0.1 - - [21/Jul/2018 10:29:37] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:29:46,064 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 51, in ac_onlogin
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 10:29:46,064 INFO    : 127.0.0.1 - - [21/Jul/2018 10:29:46] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:30:32,906 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 51, in ac_onlogin
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 10:30:32,906 INFO    : 127.0.0.1 - - [21/Jul/2018 10:30:32] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:30:43,968 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:30:51,353 ERROR   : Exception on /acController/onLogin [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 51, in ac_onlogin
+    openid = request.get_json()['openid']
+KeyError: 'openid'
+2018-07-21 10:30:51,357 INFO    : 127.0.0.1 - - [21/Jul/2018 10:30:51] "POST /acController/onLogin HTTP/1.1" 500 -
+2018-07-21 10:33:22,640 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:33:28,404 INFO    : 127.0.0.1 - - [21/Jul/2018 10:33:28] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:34:36,624 INFO    : 127.0.0.1 - - [21/Jul/2018 10:34:36] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:35:11,986 INFO    : 127.0.0.1 - - [21/Jul/2018 10:35:11] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:35:17,425 INFO    : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-21 10:35:17,426 INFO    : 帽子底下有呆毛获取授权成功
+2018-07-21 10:35:17,888 INFO    : 127.0.0.1 - - [21/Jul/2018 10:35:17] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-21 10:35:23,452 INFO    : 127.0.0.1 - - [21/Jul/2018 10:35:23] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:36:26,965 INFO    : 127.0.0.1 - - [21/Jul/2018 10:36:26] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:52:55,185 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:53:01,666 INFO    : 127.0.0.1 - - [21/Jul/2018 10:53:01] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:54:36,343 INFO    : 127.0.0.1 - - [21/Jul/2018 10:54:36] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:54:39,024 INFO    : 127.0.0.1 - - [21/Jul/2018 10:54:39] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 10:54:47,956 INFO    : 127.0.0.1 - - [21/Jul/2018 10:54:47] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 10:55:55,385 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:55:58,494 INFO    : 添加来自帽子底下有呆毛的开机请求
+2018-07-21 10:55:58,494 INFO    : 127.0.0.1 - - [21/Jul/2018 10:55:58] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 10:56:16,177 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 10:56:52,988 INFO    : 127.0.0.1 - - [21/Jul/2018 10:56:52] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:56:58,411 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 10:56:58,411 INFO    : 127.0.0.1 - - [21/Jul/2018 10:56:58] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 10:58:59,709 INFO    : 127.0.0.1 - - [21/Jul/2018 10:58:59] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:59:02,747 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 10:59:02,747 INFO    : 127.0.0.1 - - [21/Jul/2018 10:59:02] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 10:59:18,558 INFO    : 127.0.0.1 - - [21/Jul/2018 10:59:18] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 10:59:22,917 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 10:59:22,917 INFO    : 127.0.0.1 - - [21/Jul/2018 10:59:22] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:01:29,767 INFO    : 127.0.0.1 - - [21/Jul/2018 11:01:29] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:01:33,032 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:01:33,032 INFO    : 127.0.0.1 - - [21/Jul/2018 11:01:33] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:01:38,636 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:01:38,636 INFO    : 127.0.0.1 - - [21/Jul/2018 11:01:38] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:01:44,357 INFO    : 127.0.0.1 - - [21/Jul/2018 11:01:44] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:01:47,747 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:01:47,747 INFO    : 127.0.0.1 - - [21/Jul/2018 11:01:47] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:12,593 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:12] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:03:15,728 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:15,728 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:15] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:22,929 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 11:03:28,744 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:28,744 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:45,242 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:45] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:03:47,848 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:47,848 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:47] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:55,688 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:55,688 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:55] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:56,611 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:56,614 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:56] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:56,877 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:56,877 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:56] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:57,086 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:57,087 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:57] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:57,597 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:57,597 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:57] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:58,016 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:58,017 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:58] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:03:58,382 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:03:58,382 INFO    : 127.0.0.1 - - [21/Jul/2018 11:03:58] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:06:22,008 INFO    : 127.0.0.1 - - [21/Jul/2018 11:06:22] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:06:37,360 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 11:06:39,593 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:06:39,593 INFO    : 127.0.0.1 - - [21/Jul/2018 11:06:39] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:06:44,635 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:06:44,635 INFO    : 127.0.0.1 - - [21/Jul/2018 11:06:44] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:06:55,201 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:06:55,201 INFO    : 127.0.0.1 - - [21/Jul/2018 11:06:55] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:06:59,401 INFO    : 127.0.0.1 - - [21/Jul/2018 11:06:59] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:07:02,243 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:07:02,243 INFO    : 127.0.0.1 - - [21/Jul/2018 11:07:02] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:07:07,545 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:07:07,546 INFO    : 127.0.0.1 - - [21/Jul/2018 11:07:07] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:16:37,891 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 11:16:42,841 INFO    : 127.0.0.1 - - [21/Jul/2018 11:16:42] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:16:45,923 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:16:45,923 INFO    : 127.0.0.1 - - [21/Jul/2018 11:16:45] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:16:48,099 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求
+2018-07-21 11:16:48,100 INFO    : 127.0.0.1 - - [21/Jul/2018 11:16:48] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 11:17:19,873 INFO    : 127.0.0.1 - - [21/Jul/2018 11:17:19] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 11:17:22,754 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求
+2018-07-21 11:17:22,754 INFO    : 127.0.0.1 - - [21/Jul/2018 11:17:22] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 11:17:23,904 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求
+2018-07-21 11:17:23,904 INFO    : 127.0.0.1 - - [21/Jul/2018 11:17:23] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:21:42,462 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求
+2018-07-21 12:21:42,462 INFO    : 127.0.0.1 - - [21/Jul/2018 12:21:42] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:23:50,610 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:23:53,759 ERROR   : Exception on /acController/onStop [POST]
+Traceback (most recent call last):
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "F:\project\python\zanks_web\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "F:\project\python\zanks_web\app\ac_controller\ac_controller.py", line 115, in ac_on_stop
+    logger.info("添加来自 " + reslut[0][1] + " 的 关机 请求。目前请求池数目为: " + requestList.__sizeof__())
+TypeError: Can't convert 'int' object to str implicitly
+2018-07-21 12:23:53,766 INFO    : 127.0.0.1 - - [21/Jul/2018 12:23:53] "POST /acController/onStop HTTP/1.1" 500 -
+2018-07-21 12:24:20,177 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:24:22,891 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 16
+2018-07-21 12:24:22,891 INFO    : 127.0.0.1 - - [21/Jul/2018 12:24:22] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:24:33,439 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 16
+2018-07-21 12:24:33,439 INFO    : 127.0.0.1 - - [21/Jul/2018 12:24:33] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:25:53,107 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:25:59,137 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 1
+2018-07-21 12:25:59,137 INFO    : 127.0.0.1 - - [21/Jul/2018 12:25:59] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:02,878 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 2
+2018-07-21 12:26:02,878 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:02] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:03,496 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 3
+2018-07-21 12:26:03,496 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:03] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:03,941 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 4
+2018-07-21 12:26:03,941 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:03] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:04,123 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 5
+2018-07-21 12:26:04,123 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:04] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:04,289 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 6
+2018-07-21 12:26:04,289 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:04] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:04,438 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 7
+2018-07-21 12:26:04,438 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:04] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:04,576 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 8
+2018-07-21 12:26:04,576 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:04] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:04,688 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 9
+2018-07-21 12:26:04,689 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:04] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:04,862 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 10
+2018-07-21 12:26:04,863 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:04] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:05,004 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 11
+2018-07-21 12:26:05,004 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:05] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:05,153 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 12
+2018-07-21 12:26:05,153 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:05] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:05,321 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 13
+2018-07-21 12:26:05,321 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:05] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:05,447 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 14
+2018-07-21 12:26:05,448 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:05] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:05,608 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 15
+2018-07-21 12:26:05,608 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:05] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:26:05,748 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 16
+2018-07-21 12:26:05,749 INFO    : 127.0.0.1 - - [21/Jul/2018 12:26:05] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:47:22,216 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:52:39,965 INFO    : 127.0.0.1 - - [21/Jul/2018 12:52:39] "GET / HTTP/1.1" 404 -
+2018-07-21 12:54:19,260 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:54:21,037 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 1
+2018-07-21 12:54:21,038 INFO    : 127.0.0.1 - - [21/Jul/2018 12:54:21] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:54:21,385 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 2
+2018-07-21 12:54:21,385 INFO    : 127.0.0.1 - - [21/Jul/2018 12:54:21] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:54:23,674 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 3
+2018-07-21 12:54:23,675 INFO    : 127.0.0.1 - - [21/Jul/2018 12:54:23] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:54:25,798 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 4
+2018-07-21 12:54:25,798 INFO    : 127.0.0.1 - - [21/Jul/2018 12:54:25] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:54:58,184 INFO    : 127.0.0.1 - - [21/Jul/2018 12:54:58] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:55:11,474 INFO    : 127.0.0.1 - - [21/Jul/2018 12:55:11] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:56:26,528 INFO    : 127.0.0.1 - - [21/Jul/2018 12:56:26] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:56:27,742 INFO    : 127.0.0.1 - - [21/Jul/2018 12:56:27] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:58:38,800 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:58:42,143 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 1
+2018-07-21 12:58:42,143 INFO    : 127.0.0.1 - - [21/Jul/2018 12:58:42] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:58:42,991 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 2
+2018-07-21 12:58:42,992 INFO    : 127.0.0.1 - - [21/Jul/2018 12:58:42] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:58:43,825 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 3
+2018-07-21 12:58:43,825 INFO    : 127.0.0.1 - - [21/Jul/2018 12:58:43] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:58:50,188 INFO    : 一个 开机 请求被成功处理，目前请求池容量： 2
+2018-07-21 12:58:50,188 INFO    : 127.0.0.1 - - [21/Jul/2018 12:58:50] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:58:56,627 INFO    : 一个 开机 请求被成功处理，目前请求池容量： 1
+2018-07-21 12:58:56,627 INFO    : 127.0.0.1 - - [21/Jul/2018 12:58:56] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:59:00,231 INFO    : 一个 开机 请求被成功处理，目前请求池容量： 0
+2018-07-21 12:59:00,231 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:00] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:59:18,235 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:59:20,374 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 1
+2018-07-21 12:59:20,374 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:20] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:59:20,770 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 2
+2018-07-21 12:59:20,771 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:20] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:59:22,063 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 3
+2018-07-21 12:59:22,063 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:22] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:59:22,606 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 4
+2018-07-21 12:59:22,607 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:22] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:59:37,670 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 12:59:39,857 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 1
+2018-07-21 12:59:39,858 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:39] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:59:41,153 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 2
+2018-07-21 12:59:41,153 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:41] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:59:42,258 INFO    : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 3
+2018-07-21 12:59:42,258 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:42] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 12:59:42,981 INFO    : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 4
+2018-07-21 12:59:42,982 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:42] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 12:59:47,227 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:47] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:59:48,491 INFO    : 一个 开机 请求被成功处理，目前请求池容量： 2
+2018-07-21 12:59:48,491 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:48] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:59:49,478 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:49] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:59:50,497 INFO    : 一个 开机 请求被成功处理，目前请求池容量： 0
+2018-07-21 12:59:50,497 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:50] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 12:59:55,839 INFO    : 127.0.0.1 - - [21/Jul/2018 12:59:55] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:05:27,033 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 13:06:19,845 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 13:06:25,101 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 1
+2018-07-21 13:06:25,101 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:25] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:25,737 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 2
+2018-07-21 13:06:25,737 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:25] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 13:06:26,167 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 3
+2018-07-21 13:06:26,167 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:26] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:26,839 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 4
+2018-07-21 13:06:26,839 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:26] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 13:06:27,188 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 5
+2018-07-21 13:06:27,188 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:27] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 13:06:27,489 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 6
+2018-07-21 13:06:27,489 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:27] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 13:06:28,127 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 7
+2018-07-21 13:06:28,127 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:28,293 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 8
+2018-07-21 13:06:28,293 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:28,457 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 9
+2018-07-21 13:06:28,457 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:28,599 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 10
+2018-07-21 13:06:28,599 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:28,751 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 11
+2018-07-21 13:06:28,751 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:28,883 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 12
+2018-07-21 13:06:28,883 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:28] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:29,046 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 13
+2018-07-21 13:06:29,046 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:29] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:29,175 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 14
+2018-07-21 13:06:29,175 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:29] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 13:06:43,366 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 13
+2018-07-21 13:06:43,366 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:43] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:44,384 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:44] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:45,386 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 11
+2018-07-21 13:06:45,386 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:45] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:46,409 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:46] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:47,418 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:47] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:48,424 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:48] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:49,431 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 7
+2018-07-21 13:06:49,431 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:49] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:50,443 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 6
+2018-07-21 13:06:50,443 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:50] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:51,447 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 5
+2018-07-21 13:06:51,447 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:51] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:52,454 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 4
+2018-07-21 13:06:52,454 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:52] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:53,463 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 3
+2018-07-21 13:06:53,463 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:53] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:54,467 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 2
+2018-07-21 13:06:54,467 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:54] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:55,474 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 1
+2018-07-21 13:06:55,474 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:55] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:56,477 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 0
+2018-07-21 13:06:56,483 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:56] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:57,501 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:57] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:58,506 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:58] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:06:59,518 INFO    : 127.0.0.1 - - [21/Jul/2018 13:06:59] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:07:00,536 INFO    : 127.0.0.1 - - [21/Jul/2018 13:07:00] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 13:07:01,542 INFO    : 127.0.0.1 - - [21/Jul/2018 13:07:01] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:19:46,552 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 17:19:57,184 INFO    : 127.0.0.1 - - [21/Jul/2018 17:19:57] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 17:20:03,115 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 1
+2018-07-21 17:20:03,130 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:03] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 17:20:06,526 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 2
+2018-07-21 17:20:06,526 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:06] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 17:20:09,059 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 3
+2018-07-21 17:20:09,059 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:09] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:20:10,135 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 4
+2018-07-21 17:20:10,135 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:10] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:20:10,348 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 5
+2018-07-21 17:20:10,348 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:10] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:20:10,636 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 6
+2018-07-21 17:20:10,637 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:10] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:20:11,045 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 7
+2018-07-21 17:20:11,045 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:11] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:20:11,461 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 8
+2018-07-21 17:20:11,461 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:11] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:20:48,387 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:48] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 17:20:56,651 INFO    : 127.0.0.1 - - [21/Jul/2018 17:20:56] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-21 17:21:01,779 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 9
+2018-07-21 17:21:01,780 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:01] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:21:04,124 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 10
+2018-07-21 17:21:04,124 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:04] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 17:21:30,210 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 9
+2018-07-21 17:21:30,226 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:30] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:31,236 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 8
+2018-07-21 17:21:31,236 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:31] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:32,245 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:32] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:33,256 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:33] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:34,267 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:34] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:35,276 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:35] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:36,285 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:36] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:37,294 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:37] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:38,346 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:38] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:39,355 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 0
+2018-07-21 17:21:39,356 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:39] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:40,364 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:40] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:41,371 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:41] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:42,378 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:42] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:43,491 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:43] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:44,501 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:44] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:45,510 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:45] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:46,519 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:46] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:47,527 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:47] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:48,534 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:48] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:49,541 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:49] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:50,549 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:50] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:51,559 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:51] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:52,569 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:52] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:53,577 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:53] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:54,584 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:54] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:21:55,594 INFO    : 127.0.0.1 - - [21/Jul/2018 17:21:55] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:22:03,475 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-21 17:50:03,637 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:03] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:04,644 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:04] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:05,653 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:05] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:06,660 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:06] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:07,632 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 1
+2018-07-21 17:50:07,632 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:07] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-21 17:50:07,672 WARNING : 一个 开机 请求被成功处理，目前请求池容量： 0
+2018-07-21 17:50:07,673 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:07] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:08,681 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:08] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:09,690 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:09] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:10,048 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 1
+2018-07-21 17:50:10,048 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:10] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-21 17:50:10,701 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:10] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:11,708 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:11] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:12,714 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:12] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:13,722 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:13] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:14,738 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:14] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-21 17:50:15,745 INFO    : 127.0.0.1 - - [21/Jul/2018 17:50:15] "GET /acController/getOpt HTTP/1.1" 200 -
+2018-07-22 11:41:25,209 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-22 11:41:30,371 INFO    : 127.0.0.1 - - [22/Jul/2018 11:41:30] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:43:12,154 INFO    : 127.0.0.1 - - [22/Jul/2018 11:43:12] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:52:16,570 INFO    : 127.0.0.1 - - [22/Jul/2018 11:52:16] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:52:31,538 INFO    : 127.0.0.1 - - [22/Jul/2018 11:52:31] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:54:00,548 INFO    : 127.0.0.1 - - [22/Jul/2018 11:54:00] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:54:11,639 INFO    : 127.0.0.1 - - [22/Jul/2018 11:54:11] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:54:50,289 INFO    : 127.0.0.1 - - [22/Jul/2018 11:54:50] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:55:33,685 INFO    : 127.0.0.1 - - [22/Jul/2018 11:55:33] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:55:40,432 WARNING : 收到来自帽子底下有呆毛的请求，授权码为pulupulu
+2018-07-22 11:55:40,460 WARNING : 帽子底下有呆毛获取授权成功
+2018-07-22 11:55:40,920 INFO    : 127.0.0.1 - - [22/Jul/2018 11:55:40] "POST /acController/authorize HTTP/1.1" 200 -
+2018-07-22 11:57:14,577 INFO    : 127.0.0.1 - - [22/Jul/2018 11:57:14] "POST /acController/onLogin HTTP/1.1" 200 -
+2018-07-22 11:57:17,489 WARNING : 添加来自 帽子底下有呆毛 的 开机 请求。目前请求池数目为: 1
+2018-07-22 11:57:17,489 INFO    : 127.0.0.1 - - [22/Jul/2018 11:57:17] "POST /acController/onStart HTTP/1.1" 200 -
+2018-07-22 11:57:19,775 WARNING : 添加来自 帽子底下有呆毛 的 关机 请求。目前请求池数目为: 2
+2018-07-22 11:57:19,776 INFO    : 127.0.0.1 - - [22/Jul/2018 11:57:19] "POST /acController/onStop HTTP/1.1" 200 -
+2018-07-22 15:00:50,884 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-22 15:32:36,498 INFO    :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-07-22 15:32:47,059 INFO    : 127.0.0.1 - - [22/Jul/2018 15:32:47] "POST /acController/onLogin HTTP/1.1" 200 -
